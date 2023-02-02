@@ -1,0 +1,70 @@
+body {
+    background-color: lightblue;
+    padding: 10px 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.list {
+    font-family: verdana;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#img1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: img_1 2s;
+    animation-iteration-count: infinite;
+
+}
+
+#img2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: img_2 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img_1 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    50% {
+        left: 200px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes img_2 {
+    0% {
+        top: 0px;
+        right: 0px;
+    }
+    50% {
+        top: 0px;
+        right: 200px;
+    }
+    100% {
+        top: 0px;
+        right: 0px;
+    }
+}
