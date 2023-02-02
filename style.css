@@ -23,6 +23,11 @@ p {
     justify-content: center;
 }
 
+.author{
+    color: white;
+    text-align: right;
+}
+
 #img1 {
     width: 200px;
     height: 200px;
