@@ -33,7 +33,7 @@ p {
     height: 200px;
     position: relative;
     animation: img_1 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 
 }
 
@@ -42,7 +42,7 @@ p {
     height: 200px;
     position: relative;
     animation: img_2 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 @keyframes img_1 {
